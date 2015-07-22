@@ -16,6 +16,7 @@ section {
 
 textarea {
   resize: vertical;
+	float: left;
 }
 
 .center {
@@ -28,7 +29,14 @@ textarea {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      width: 250px;
-      margin: auto;
+	
+	width: 20%;
+  margin: auto;
 }
+.image {
+	float: right;
+	width: 40%;
+	height: auto; 
+}
+
 

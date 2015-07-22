@@ -11,25 +11,24 @@
     <![endif]-->
   </head>
   <body>
-    <header class="navbar navbar-fixed-top>
-      <div class="navbar-inner">
-        <div class="container">
-          <%= link_to image_tag("ballet-logo"), root_path, id: "logo" %>
-          <nav>
-            <ul class="nav">
-              <li><%= link_to "Главная", root_path %></li>
-              <li><%= link_to "История труппы", history_path %></li>
-							<li><%= link_to "Фото", galery_path %></li>
-							<li><%= link_to "Видео", video_path %></li>
-							<li><%= link_to "История балета", history_path %></li>
-							<li><%= link_to "Партнеры", partners_path %></li>
-              <li><%= link_to "Контакты", contacts_path %></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-		<%= yield %>
+		<div class="navbar">
+			<div class="container">
+				<%= link_to image_tag("ballet-logo"), root_path, id: "logo" %>
+					<ul class="nav">
+						<li><%= link_to "Главная", root_path %></li>
+						<li><%= link_to "История труппы", troup_history_path %></li>
+						<li><%= link_to "Фото", galery_path %></li>
+						<li><%= link_to "Видео", video_path %></li>
+						<li><%= link_to "История балета", history_path %></li>
+						<li><%= link_to "Партнеры", partners_path %></li>
+						<li><%= link_to "Контакты", contacts_path %></li>
+					</ul>
+			</div>
+		</div>
+	<%= yield %>
+	<div class="footer">
+
+	</div>
  </body>
 </html>
 
