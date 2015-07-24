@@ -26,8 +26,22 @@
 			</div>
 		</div>
 	<%= yield %>
-	<div class="footer">
-
+	<div class="container footer" >
+		<div class="row">
+			<div class="span3"></div>
+				<div class="span4">			
+					<ul class="nav">
+						<li><%= link_to "Главная", root_path %></li>
+						<li><%= link_to "История труппы", troup_history_path %></li>
+						<li><%= link_to "Фото", galery_path %></li>
+						<li><%= link_to "Видео", video_path %></li>
+						<li><%= link_to "История балета", history_path %></li>
+						<li><%= link_to "Партнеры", partners_path %></li>
+						<li><%= link_to "Контакты", contacts_path %></li>
+						<div class="span11" id="copyright">© 2000 – 2015 Classical Ballet Theatre</div>
+					</ul>
+				</div>
+		</div>
 	</div>
  </body>
 </html>
