@@ -28,6 +28,7 @@ gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'youtube_it', '~> 2.4.0'
+gem 'sprockets-rails', '2.3.3'
 
 group :development, :test do
   gem 'byebug'
