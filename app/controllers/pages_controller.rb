@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
-  
+
 	def home
 	end
-	
+
 	def troup_history
   end
 
@@ -17,7 +17,7 @@ class PagesController < ApplicationController
 
 	def partners
 	end
-	
+
   def contacts
   end
 end

@@ -1,0 +1,31 @@
+.container
+  = image_tag("swan-lake-v2")
+  %h4
+    %br/
+    Мы рады приветствовать Вас на официальном сайте Театра Классического Балета. Здесь Вы узнаете последние новости театра, отклики в прессе, информацию о нашем коллективе и многое другое
+  %br/
+  .row
+    .span4
+      #myCarousel.carousel.slide{"data-ride" => "carousel"}
+        / Indicators
+        %ol.carousel-indicators
+          %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+          %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+        / Wrapper for slides
+        .carousel-inner{:role => "listbox"}
+          .item.active
+            = image_tag("event1")
+          .item
+            = image_tag("event2")
+          .item
+            = image_tag("event3")
+          .item
+            = image_tag("event4")
+        / Left and right controls
+        %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel", :role => "button"}
+          %span.glyphicon.glyphicon-chevron-left{"aria-hidden" => "true"}
+          %span.sr-only
+        %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel", :role => "button"}
+          %span.glyphicon.glyphicon-chevron-right{"aria-hidden" => "true"}
+    .span8
+      %h3 Афиши наших представлений

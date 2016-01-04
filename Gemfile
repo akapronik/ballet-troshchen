@@ -29,6 +29,7 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'youtube_it', '~> 2.4.0'
 gem 'sprockets-rails', '2.3.3'
+gem 'active_link_to'
 
 group :development, :test do
   gem 'byebug'
