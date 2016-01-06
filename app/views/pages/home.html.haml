@@ -5,13 +5,23 @@
     Мы рады приветствовать Вас на официальном сайте Театра Классического Балета. Здесь Вы узнаете последние новости театра, отклики в прессе, информацию о нашем коллективе и многое другое
   %br/
   .row
+    .span6
+      %h3 Сотрудничество с Moscow Ballet
+      %p
+        Наша труппа удачно провела очередной предрождественский "Щелкунчик" тур с компанией
+        %a{:href => "http://nutcracker.com"} Moscow Ballet
+        по восточному берегу США.
+    .span6
+      = image_tag("usa_nutcracker.jpg")
+  %br/
+  .row
     .span4
       #myCarousel.carousel.slide{"data-ride" => "carousel"}
-        / Indicators
         %ol.carousel-indicators
-          %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
-          %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
-        / Wrapper for slides
+          %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+          %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+          %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
+          %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
         .carousel-inner{:role => "listbox"}
           .item.active
             = image_tag("event1")
@@ -21,7 +31,7 @@
             = image_tag("event3")
           .item
             = image_tag("event4")
-        / Left and right controls
+
         %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel", :role => "button"}
           %span.glyphicon.glyphicon-chevron-left{"aria-hidden" => "true"}
           %span.sr-only
@@ -29,3 +39,9 @@
           %span.glyphicon.glyphicon-chevron-right{"aria-hidden" => "true"}
     .span8
       %h3 Афиши наших представлений
+      %p
+        В Одесском Национальном Академическом Теартре Оперы и Балета неоднократно проходили представления
+        "Лебединое Озеро" в составе нашей труппы, а так же под руководством Трощенко В.Н. были приглашены
+        звезды итальянской оперы Джина Ианни и Франческо Паккорини которые исполнили самые любимые всеми арии.
+  %br/
+

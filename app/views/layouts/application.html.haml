@@ -17,7 +17,6 @@
           %li{:class => active_class(troup_history_path)}= link_to "История труппы", troup_history_path
           %li{:class => active_class(galery_path)}= link_to "Фото", galery_path
           %li{:class => active_class(video_path)}= link_to "Видео", video_path
-          %li{:class => active_class(history_path)}= link_to "История балета", history_path
           %li{:class => active_class(partners_path)}= link_to "Партнеры", partners_path
           %li{:class => active_class(contacts_path)}= link_to "Контакты", contacts_path
     = yield
@@ -31,3 +30,4 @@
         \#{link_to "История балета", history_path} ·
         \#{link_to "Партнеры", partners_path} ·
         \#{link_to "Контакты", contacts_path}
+

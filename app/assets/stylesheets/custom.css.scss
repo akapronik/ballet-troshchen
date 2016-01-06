@@ -33,12 +33,13 @@ textarea {
 	text-align: left;
 }
 
-.navbar {
-  text-align: center;
+.navbar .container {
+    text-align: center;
 }
-.nav {
-   width: 1225px;
-  text-align: center;
+.navbar .container .nav {
+    float: none;
+    display:inline-block;
+    text-align: center;
 }
 
 .active {
@@ -59,16 +60,8 @@ textarea {
   margin-bottom: 10px;
 }
 
-#myCarousel {
-	width: 100%;
-}
-
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-
-	width: 90%;
-  margin: auto;
 }
-
 
 
