@@ -4,44 +4,41 @@
     %br/
     Мы рады приветствовать Вас на официальном сайте Театра Классического Балета. Здесь Вы узнаете последние новости театра, отклики в прессе, информацию о нашем коллективе и многое другое
   %br/
+  %h3.center АФИШИ НАШИХ ПРЕДСТАВЛЕНИЙ
   .row
-    .span4
-      #myCarousel.carousel.slide{"data-ride" => "carousel"}
-        %ol.carousel-indicators
-          %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
-          %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
-          %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
-          %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
-        .carousel-inner{:role => "listbox"}
-          .item.active
-            = image_tag("event1")
-          .item
-            = image_tag("event2")
-          .item
-            = image_tag("event3")
-          .item
-            = image_tag("event4")
-
-        %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel", :role => "button"}
-          %span.glyphicon.glyphicon-chevron-left{"aria-hidden" => "true"}
-          %span.sr-only
-        %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel", :role => "button"}
-          %span.glyphicon.glyphicon-chevron-right{"aria-hidden" => "true"}
+    .span2
     .span8
-      %h3 Афиши наших представлений
-      %p
-        В Одесском Национальном Академическком Теартре Оперы и Балета неоднократно проходили представления "Лебединое Озеро" и « Щелкунчика».
+      %h4
+        В Одесском Национальном Академическком Теартре Оперы и Балета неоднократно проходили представления «Лебединое Озеро» и «Щелкунчика».
+      .row
+        .span4
+          = image_tag("event2")
+        .span4
+          = image_tag("event3")
+      %br/
+      %h4
         Также состоялась премьера модерн балета «Ромео и Джульетта».
+      .row
+        .span2
+        .span4
+          = image_tag("event1")
+        .span6
+      %br/
+      %h4
         Выступив в качестве продюсера Трощенко В.Н. были приглашены звезды итальянской оперы Джина Ианни, Франческо Паккорини, которые исполнили самые любимые всеми арии.
-    %br/
-  .row
-    .span6
-      %h3 Сотрудничество с Moscow Ballet
-      %p
-        Наша труппа удачно провела совместный проэкт показа предрождественского "Щелкунчика" в блольшом туре с компанией
+      .row
+        .span2
+        .span4
+          = image_tag("event4")
+      %br/
+      %h3.center СОТРУДНИЧЕСТВО С MOSCOW BALLET
+      %h4
+        Наша труппа удачно провела совместный проэкт показа предрождественского «Щелкунчика» в блольшом туре с компанией
         %a{:href => "http://nutcracker.com"} Moscow Ballet
         по восточному побережью США.
-    .span6
-      = image_tag("usa_nutcracker.jpg")
-  %br/
+      .row
+        .span2
+        .span10
+          = image_tag("usa_nutcracker.jpg")
+      %br/
 
